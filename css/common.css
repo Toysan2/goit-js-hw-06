@@ -24,7 +24,16 @@ button {
 }
 
 .gallery-container {
-  display: flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 30px;
+}
+img {
+  max-width: 500px;
+  max-height: 500px;
 }
 
 #validation-input {
